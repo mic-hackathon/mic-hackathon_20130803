@@ -1,0 +1,11 @@
+2013-08-03 XeonPhi Hackathon 01
+
+Model		CPU#		Result(Elapsed time)
+Xeon E5-2680	2P/16C/32T	13.2sec
+XeonPhi 5110P	1P/60C/240T	13.3sec
+XeonPhi 7120P	1P/61C/244T	11.1sec
+
+N=18
+./qn24b_* 18
+
+icc optimization: -O3
