@@ -1,0 +1,2 @@
+icpc -O2 -msse4 -mmic -Iobjs -I../intrinsics -I/usr/include/i386-linux-gnu -I/opt/intel/composer_xe_2013/include  simple.cpp simple_generic16_knc.cpp  -o simple2
+
